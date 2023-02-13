@@ -1,4 +1,11 @@
-arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+mygraph = {
+    "A": {"C", "D"},
+    "B": {"D", "E"},
+    "C": {"D", "F"},
+    "D": {"F"},
+    "E": {"F"},
+    "GG": { },
+}
 
-print(arr[:2])
-print(arr[::1])
+for v in mygraph:
+    print(v)
