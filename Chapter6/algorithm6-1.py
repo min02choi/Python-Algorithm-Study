@@ -15,7 +15,7 @@ def radix_sort(A):
     for i in range(BUCKETS):
         queues.append(Queue())      # 버킷의 개수만큼 큐 삽입
     
-    n = len(A)
+    n = len(A)      # 항목의 수
     factor = 1      # 자릿수
     
     for d in range(DIGITS):
