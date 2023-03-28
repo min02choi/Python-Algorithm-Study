@@ -15,5 +15,5 @@ print(sum)
 
 print_kwarg(name="myc", age="22")
 
-add = lambda a, b: a + b
+add = lambda a, b: a + b    # 람다함수 사용
 print(add(3, 4))
